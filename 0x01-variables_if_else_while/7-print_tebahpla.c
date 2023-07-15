@@ -8,10 +8,13 @@
  */
 int main(void)
 {
-	int num;
+	char ch = 'z';
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	while (ch >= 'a')
+	{
+		putshar(ch);
+		ch --;
+	}
 
 	putchar('\n');
 
