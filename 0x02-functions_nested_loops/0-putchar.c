@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - Entry point
  * Description : prints using putshar prototype
